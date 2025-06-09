@@ -57,3 +57,7 @@
 .bunny:hover {
   transform: scale(1.1);
 }
+
+body {
+  cursor: url('icons8-flower-32.png'), auto;
+}
