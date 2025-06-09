@@ -1,0 +1,52 @@
+<style>
+  body {
+    background-color: #f5b6cb86;
+  font-family: "Unbounded", sans-serif;
+  }
+
+  h1 {
+    color: #ff00bf;
+    font-size: 32px; 
+    text-align: center;
+    padding: 20px;
+  }
+  h2 {
+    color: #000000;
+    font-size: 26px; 
+  }
+
+  p {
+    font-size: 20px; 
+    line-height: 1.5;
+  }
+
+  ul {
+    background-color: #7c3e7423;
+    color: #ff00bf;
+    font-size: 22px; 
+    padding: 30px;
+    border-radius: 20px;
+  }
+
+    h3 {
+    color: #000000;
+    font-size: 22px;
+    padding: 30px;
+    border-radius: 20px;
+  }
+
+  a {
+    color: #b30059;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<pre style="text-align: center; font-family: monospace; font-size: 14px; line-height: 1.2em;">
+———/)/)————/),/)———(\__/)———(\.(\————(\(\
+——(’:'=)———(’:'=)——(=’;'=)——(=’:')———(=’:')
+–(”)(”),)—(”).(”)——(”)_(”)——(.(”)(”)—(.(”)(“)
+</pre>
