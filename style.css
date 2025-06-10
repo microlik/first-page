@@ -1,33 +1,40 @@
   body {
-  background-color: #d6a7b3;
-  background-color: #d6a7b3;
-  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
-  font-family: "Unbounded", sans-serif;
+  background-color: #000000;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+  font-family: 'Unbounded', sans-serif;
+  color: #F2BDCD;
+  padding: 40px;
   }
 
-  h1 {
-    color: #ff00bf;
-    text-shadow: 1px 1px 2px rgba(15, 13, 13, 0.3);
-    font-size: 32px; 
+  microlik-logo.png {
     text-align: center;
     padding: 20px;
   }
+  
+  h1 {
+    color: #E47596;
+    text-shadow: 3px 3px 6px #726c6e;
+    font-size: 46px; 
+  }
+
   h2 {
-    color: #000000;
+    color: #E47596;
+    text-shadow: 3px 3px 6px #726c6e;
     font-size: 26px; 
   }
 
   p {
     font-size: 20px; 
     line-height: 1.5;
+    margin-bottom: 50px;
   }
 
   ul {
   font-size: 22px;
-  text-shadow: 1px 1px 2px rgba(15, 13, 13, 0.3);
+  text-shadow: 3px 3px 6px #F2BDCD;
   padding: 20px;
   border-radius: 20px;
-  color: #ff00bf; 
+  color: #F2BDCD; 
   list-style: none;
   padding-left: 0;
 }
@@ -39,6 +46,7 @@
   .flower-list {
   text-shadow: 1px 1px 2px rgba(15, 13, 13, 0.3);
   background-color: #7c3e7423;
+  border-radius: 10px;
   margin-bottom: 100px;
 
 }
@@ -53,11 +61,11 @@
 }
 
 .clover-list li::before {
-  content: "🍀 ";
+  content: "🎀 ";
 }
 
     h4 {
-    color: #000000;
+    color: #F2BDCD;
     font-size: 22px;
     padding: 30px;
     border-radius: 20px;
@@ -116,4 +124,27 @@ button {
 
 .card:hover {
   transform: scale(1.05);
+}
+
+.site-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  width: 160px;      /* можно уменьшить или увеличить */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05); /* лёгкое увеличение при наведении */
+}
+
+@media (max-width: 500px) {
+  .logo {
+    width: 160px;
+  }
 }
