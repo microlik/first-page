@@ -43,5 +43,18 @@
 –(”)(”),)—(”).(”)——(”)_(”)——(.(”)(”)—(.(”)(“)
 </pre>
 
-  </body>
-</html>
+<button id="scrollTopBtn" title="Наверх">🐇</button>
+
+<script>
+  const scrollBtn = document.getElementById("scrollTopBtn");
+
+  // Появление кнопки при прокрутке
+  window.onscroll = function () {
+    scrollBtn.style.display = (window.scrollY > 300) ? "block" : "none";
+  };
+
+  // Прокрутка вверх при клике
+  scrollBtn.onclick = function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+</script>

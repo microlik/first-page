@@ -59,6 +59,7 @@ ul li::before {
   bottom: 10px;
   right: 10px;
   width: 80px;
+  cursor: none;
   opacity: 0.85;
   transition: transform 0.3s ease;
 }
@@ -75,3 +76,24 @@ a,
 button {
   cursor: url('icons8-flower-32.png'), pointer;
 }
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 100;
+  background-color: #ffe4ec;
+  color: #b30059;
+  border: 2px solid #ffb6c1;
+  border-radius: 50%;
+  padding: 10px 14px;
+  font-size: 20px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+#scrollTopBtn:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
