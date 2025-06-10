@@ -55,7 +55,19 @@
 
 <img src="https://i.pinimg.com/736x/2c/54/3f/2c543f0cb13fb9050e5c1c3a0eb38221.jpg">
 
-<img src="https://gallery.yopriceville.com/var/albums/Free-Clipart-Pictures/Animals-PNG/Cute_Rabbit_Transparent_PNG_Picture.png?m=1629781826" alt="Кролик" class="bunny">
+<img src="https://img1.picmix.com/output/stamp/normal/2/3/9/7/1807932_ba90b.gif" id="scrollTopGif" alt="Наверх" title="Наверх">
+
+<script>
+  const scrollGif = document.getElementById("scrollTopGif");
+
+  window.addEventListener("scroll", () => {
+    scrollGif.style.display = (window.scrollY > 300) ? "block" : "none";
+  });
+
+  scrollGif.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>
 
 <pre style="text-align: center; font-family: monospace; font-size: 14px; line-height: 1.2em;">
 ———/)/)————/),/)———(\__/)———(\.(\————(\(\
@@ -63,18 +75,4 @@
 –(”)(”),)—(”).(”)——(”)_(”)——(.(”)(”)—(.(”)(“)
 </pre>
 
-<button id="scrollTopBtn" title="Наверх">🐇</button>
-
-<script>
-  const scrollBtn = document.getElementById("scrollTopBtn");
-
-  // Появление кнопки при прокрутке
-  window.onscroll = function () {
-    scrollBtn.style.display = (window.scrollY > 300) ? "block" : "none";
-  };
-
-  // Прокрутка вверх при клике
-  scrollBtn.onclick = function () {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-</script>
+</body>
