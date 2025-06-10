@@ -68,5 +68,10 @@ ul li::before {
 }
 
 body {
-  cursor: url('icons8-flower-32.png'), auto;
+  cursor: url('icons8-flower-32.png'), default; 
+}
+
+a,
+button {
+  cursor: url('icons8-flower-32.png'), pointer;
 }
