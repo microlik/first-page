@@ -70,7 +70,6 @@ button {
   z-index: 100;
   width: 100px;
   height: auto;
-  cursor: pointer;
   opacity: 0.7;
   display: none;
   transition: opacity 0.3s ease, transform 0.3s ease;
