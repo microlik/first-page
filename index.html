@@ -11,12 +11,12 @@
   <body>
     <img src="microlik-logo.png" alt="microlik" class="logo">
 
-    <nav class="floating-menu">
+
+  <nav class="floating-menu" id="floatingMenu">
   <a href="#reasons">Причины</a>
   <a href="#reasons">Ляляля</a>
-  <a href="#reasons">Мемеме</a>
-
-</nav>
+  <a href="#reasons">*нюх*</a>
+  </nav>
 
     <h1>Привет, мир!</h1>
     <p>Я - будущая разработчица и зайду так далеко, как только смогу.</p>
@@ -35,16 +35,16 @@
 </section>
 
 <div class="flex-container">
-  <div class="card"><h2>Мои источники силы:</h2>
-<ul class="clover-list">
+  <div class="card"><h3>Мои источники силы:</h3>
+<ul class="ribbon-list">
   <li>Общение с подругами</li>
   <li>Радфем-авторки</li>
   <li>Сильные героини</li>
 </ul>
   </div>
 
-  <div class="card"><h2>Любимые занятия:</h2>
-<ul class="clover-list">
+  <div class="card"><h3>Любимые занятия:</h3>
+<ul class="ribbon-list">
   <li>Составлять списки</li>
   <li>Решать судоку</li>
   <li>Собирать пазлики</li>
@@ -54,8 +54,8 @@
 </ul>
   </div>
   
-  <div class="card"><h2>Мои способы отдыха:</h2>
-<ul class="clover-list">
+  <div class="card"><h3>Мои способы отдыха:</h3>
+<ul class="ribbon-list">
   <li>Смотреть на кроликов</li>
   <li>Слушать музыку</li>
   <li>Лежать в ванне</li>
@@ -66,7 +66,7 @@
 
 <h4>Мой любимый сайт — <a href="https://netovar.org/">Netovar.org</a>. Люди не могут быть товаром!</h4>
 
-<img src="https://img1.picmix.com/output/stamp/normal/2/3/9/7/1807932_ba90b.gif" id="scrollTopGif" alt="Наверх" title="Наверх">
+<img src="https://img1.picmix.com/output/stamp/normal/2/3/9/7/1807932_ba90b.gif" id="scrollTopGif" alt="Погладить" title="Погладить">
 
 <script>
   const scrollGif = document.getElementById("scrollTopGif");
@@ -85,5 +85,14 @@
 ——(’:'=)———(’:'=)——(=’;'=)——(=’:')———(=’:')
 –(”)(”),)—(”).(”)——(”)_(”)——(.(”)(”)—(.(”)(“)
 </pre>
+
+<script>
+  const toggleBtn = document.getElementById("toggleMenuBtn");
+  const menu = document.getElementById("floatingMenu");
+
+  toggleBtn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+  });
+</script>
 
 </body>
