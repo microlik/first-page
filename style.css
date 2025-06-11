@@ -161,7 +161,7 @@ button {
 
 .floating-menu a {
   display: block;
-  background-color: #ffcde4;
+  background-color: #ffb6c1;
   color: #3a2c35;
   padding: 10px 12px;
   border-radius: 10px;
@@ -173,10 +173,6 @@ button {
 }
 
 .floating-menu a:hover {
-  background-color: #ffb6c1;
+  background-color: #db4685;
   transform: scale(1.1);
-}
-
-html {
-  scroll-behavior: smooth;
 }
